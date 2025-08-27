@@ -1,0 +1,54 @@
+############################
+# CORE (EDA / DataFrame)
+############################
+numpy==2.0.2
+pandas==2.2.2
+scipy==1.14.1
+
+############################
+# MODELAGEM (tabular)
+############################
+scikit-learn==1.5.2
+joblib==1.4.2
+category-encoders==2.6.3
+tqdm==4.66.5
+
+# (opcionais – boosting)
+# xgboost==2.1.1
+# lightgbm==4.5.0
+# catboost==1.2.5
+
+############################
+# NLP (Overview)
+############################
+nltk==3.8.1
+# (se quiser stemming/lematização avançada via spaCy, adicione:)
+# spacy==3.7.4
+# e instale um modelo depois: python -m spacy download en_core_web_sm
+
+############################
+# VISUALIZAÇÃO / NOTEBOOK
+############################
+matplotlib==3.9.1
+seaborn==0.13.2
+plotly==5.23.0
+jupyterlab==4.2.5
+ipykernel==6.29.5
+nbformat==5.10.4
+nbconvert==7.16.4
+wordcloud==1.9.3
+
+############################
+# TESTES / QUALIDADE
+############################
+pytest==8.3.2
+pytest-cov==5.0.0
+pytest-sugar==0.9.7
+pytest-emoji==0.2.0
+black==24.8.0
+ruff==0.6.2
+
+############################
+# UTILITÁRIOS
+############################
+python-dotenv==1.0.1

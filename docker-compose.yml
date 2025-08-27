@@ -1,0 +1,20 @@
+services:
+  test:
+    build: .
+    working_dir: /app
+    volumes:
+      - .:/app:delegated
+    command: ["pytest", "-q"]
+
+  notebook:
+    build: .
+    working_dir: /app
+    volumes:
+      - .:/app:delegated
+    ports:
+      - "8888:8888"
+    command: >
+      jupyter lab --ip=0.0.0.0 --no-browser
+      --ServerApp.token=''
+      --ServerApp.password=''
+      --allow-root
