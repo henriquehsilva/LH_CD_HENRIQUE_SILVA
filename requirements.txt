@@ -52,3 +52,6 @@ ruff==0.6.2
 # UTILITÁRIOS
 ############################
 python-dotenv==1.0.1
+nbconvert==7.16.4
+mistune==2.0.5
+jinja2>=3.1
