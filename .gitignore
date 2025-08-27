@@ -1,0 +1,69 @@
+# -----------------------------
+# Python / Build / Wheels
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# -----------------------------
+# Ambientes virtuais / Secrets
+# -----------------------------
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# -----------------------------
+# Jupyter / Notebooks
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Testes / Cobertura
+# -----------------------------
+.pytest_cache/
+.coverage
+coverage.*
+htmlcov/
+
+# -----------------------------
+# Linters / Tipagem / Cache
+# -----------------------------
+.mypy_cache/
+.pytype/
+ruff_cache/
+.cache/
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# IDE / SO
+# -----------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# -----------------------------
+# (Opcional) Dados grandes
+# -----------------------------
+# Se precisar manter dados privados/desnecessários fora do git,
+# descomente as linhas abaixo. ATENÇÃO: o desafio pode exigir
+# versionar "data/movies.csv" e o modelo .pkl em models/.
+#
+# data/*
+# !data/movies.csv

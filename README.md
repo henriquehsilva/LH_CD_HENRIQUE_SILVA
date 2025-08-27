@@ -18,7 +18,7 @@ Analisar base de dados cinematográfica (CSV) e responder:
 ```text
 pproductions-movie-analysis/
 ├─ data/
-│  └─ movies.csv                           # base fornecida pelo cliente (Em um projeto real NÃO seria versionado!)
+│  └─ movies.csv                           # base fornecida pelo cliente
 ├─ notebooks/
 │  ├─ 01_eda.ipynb                         # EDA e hipóteses
 │  ├─ 02_text_overview.ipynb               # NLP na coluna Overview (inferência de gênero)
