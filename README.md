@@ -27,17 +27,6 @@ pproductions-movie-analysis/
 │  └─ EDA_Report.pdf                       # export do notebook
 ├─ models/
 │  └─ imdb_model.pkl                       # modelo salvo
-├─ src/
-│  ├─ __init__.py                          # (atenção: dois underscores antes e depois de init)
-│  ├─ preprocessing.py                     # limpeza, parsing (ex.: Runtime → minutos, Gross → numérico)
-│  ├─ features.py                          # engenharia de atributos (One-Hot, TF-IDF, etc.)
-│  ├─ modeling.py                          # treino/validação de modelos
-│  └─ predict.py                           # carregamento do modelo e inferência
-├─ tests/
-│  └─ test_modeling.py                     # testes unitários (ex.: shape, pipeline, inferência)
-├─ scripts/
-│  ├─ test.sh                              # roda pytest via Docker (ou fallback)
-│  └─ train.sh                             # treino + salvamento do modelo
 ├─ requirements.txt
 ├─ pytest.ini
 ├─ Dockerfile
